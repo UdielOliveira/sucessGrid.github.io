@@ -7,3 +7,55 @@
     letter-spacing: 1px;
     font-family: Inter;
 }
+body
+{
+    background:linear-gradient(to right,#00406c,#4267b3);
+    height: 100%;
+    height: 900px;
+}
+.center
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+h1
+{
+    color: rgb(168, 166, 166);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+h1:hover
+{
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+button a
+{
+    text-decoration: none;
+    color: white;
+}
+button
+{
+    align-items: center;
+    padding: 20px;
+    background-color: #031622;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 18px;
+}
+button:hover
+{
+    transform: scale(1.15);
+    transition: all 0.5s ease-in-out;
+    background-color: #00406c;
+    cursor: pointer;
+}
